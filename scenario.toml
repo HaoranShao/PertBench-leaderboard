@@ -9,7 +9,7 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4.1-mini", AGEN
 
 [config]
 dataset = "adamson_psa_single"
-max_units = 1
+max_units = 5
 random_seed = 0
 emit_unit_results = true
 write_files = true
