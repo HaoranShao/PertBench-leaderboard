@@ -5,7 +5,7 @@ env = {}
 [[participants]]
 agentbeats_id = "019c168d-f5f8-77f3-844e-31456b9149c7"
 name = "qa_agent"
-env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4o-mini"}
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4o-mini", AGENT_CARD_NAME = "openai-gpt-4o-mini", AGENT_CARD_DESC = "OpenAI gpt-4o-mini LLM-only Agent", AGENT_CARD_VERSION = "1.0.0"}
 
 [config]
 dataset = "adamson_psa_single"
