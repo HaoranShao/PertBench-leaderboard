@@ -1,16 +1,16 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
-
-[[participants]]
-agentbeats_id = ""
-name = "role_1_name"
+agentbeats_id = "YOUR_GREEN_AGENT_ID"
 env = {}
 
 [[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "YOUR_PURPLE_AGENT_ID"
+name = "qa_agent"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "YOUR OPENAI MODEL NAME"}
 
 [config]
-# Add your assessment config here
+dataset = "adamson_psa_single"
+max_units = 5
+random_seed = 0
+emit_unit_results = true
+write_files = true
+output_dir = "artifacts"
