@@ -3,9 +3,9 @@ agentbeats_id = "019bc5a9-d51e-76f1-94c0-3bf54489a9c0"
 env = {}
 
 [[participants]]
-agentbeats_id = "YOUR_PURPLE_AGENT_ID"
+agentbeats_id = "019c168f-fb7e-7962-a3ca-ec5133fe6056"
 name = "qa_agent"
-env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "MODEL_NAME"}
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4.1-mini"}
 
 [config]
 dataset = "adamson_psa_single"
