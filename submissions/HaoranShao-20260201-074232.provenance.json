@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/haoranshao/pertbench-green@sha256:ce1f0a75f0b8141fabebd04e5774190cc6e26c920036b2b3022013e14eaf82e7",
+    "qa_agent": "ghcr.io/haoranshao/pertbench-purple@sha256:080c682bd34ac531fef73ba5e91e4b447ab831df79b38b594adee90855632d59",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-01T07:42:32Z",
+  "github_actions": {
+    "run_url": "https://github.com/HaoranShao/PertBench-leaderboard/actions/runs/21559054151",
+    "run_logs_url": "https://api.github.com/repos/HaoranShao/PertBench-leaderboard/actions/runs/21559054151/logs",
+    "ref": "refs/heads/run-baseline-4.1-mini",
+    "sha": "756ed29e7441aae712567055f456469bcdd0a4bc",
+    "repository_url": "https://github.com/HaoranShao/PertBench-leaderboard",
+    "workflow_ref": "HaoranShao/PertBench-leaderboard/.github/workflows/run-scenario.yml@refs/heads/run-baseline-4.1-mini",
+    "workflow_sha": "756ed29e7441aae712567055f456469bcdd0a4bc"
+  }
+}
