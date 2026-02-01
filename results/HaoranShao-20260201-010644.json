@@ -1,0 +1,186 @@
+{
+  "participants": {
+    "qa_agent": "019c168d-f5f8-77f3-844e-31456b9149c7"
+  },
+  "results": [
+    {
+      "dataset": "adamson_psa_single",
+      "task_name": "single_perturbation_significance_analysis",
+      "input_mode": "structured",
+      "csv_path": "example/data/adamson_psa_single.csv",
+      "spec_path": "example/config/perturbation_analysis_prompts_single.json",
+      "purple_url": "http://qa_agent:9009/",
+      "units_total": 516,
+      "units_selected": 5,
+      "covered_units": 0,
+      "coverage_rate": 0.0,
+      "accuracy": 0.0,
+      "ambiguous_rate": 0.0,
+      "invalid_rate": 1.0,
+      "avg_agreement": 0.0,
+      "strict_consistency_rate": 0.0,
+      "consistency_units": 0,
+      "purple_usage": {
+        "calls": 50,
+        "tokens_input": null,
+        "tokens_output": null,
+        "tokens_total": null,
+        "tokens_by_model": null
+      },
+      "participant": {
+        "role": "qa_agent",
+        "endpoint": "http://qa_agent:9009/",
+        "name": "openai-4o-mini",
+        "version": "1.0.0"
+      },
+      "time_used_sec": 7.602454504999997
+    },
+    {
+      "aggregate": {
+        "datasets": [
+          "adamson_psa_single"
+        ],
+        "num_datasets": 1,
+        "micro_accuracy": 0.0,
+        "micro_covered_units": 0,
+        "micro_avg_agreement": 0.0,
+        "micro_strict_consistency_rate": 0.0,
+        "micro_consistency_units": 0,
+        "purple_usage": {
+          "calls": 50,
+          "tokens_input": null,
+          "tokens_output": null,
+          "tokens_total": null
+        }
+      },
+      "per_dataset": [
+        {
+          "dataset": "adamson_psa_single",
+          "task_name": "single_perturbation_significance_analysis",
+          "input_mode": "structured",
+          "csv_path": "example/data/adamson_psa_single.csv",
+          "spec_path": "example/config/perturbation_analysis_prompts_single.json",
+          "purple_url": "http://qa_agent:9009/",
+          "units_total": 516,
+          "units_selected": 5,
+          "covered_units": 0,
+          "coverage_rate": 0.0,
+          "accuracy": 0.0,
+          "ambiguous_rate": 0.0,
+          "invalid_rate": 1.0,
+          "avg_agreement": 0.0,
+          "strict_consistency_rate": 0.0,
+          "consistency_units": 0,
+          "purple_usage": {
+            "calls": 50,
+            "tokens_input": null,
+            "tokens_output": null,
+            "tokens_total": null,
+            "tokens_by_model": null
+          },
+          "participant": {
+            "role": "qa_agent",
+            "endpoint": "http://qa_agent:9009/",
+            "name": "openai-4o-mini",
+            "version": "1.0.0"
+          },
+          "time_used_sec": 7.602454504999997
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "task_name": "perturbation_significance_analysis",
+      "participants": [
+        {
+          "role": "qa_agent",
+          "endpoint": "http://qa_agent:9009/",
+          "name": "openai-4o-mini",
+          "version": "1.0.0",
+          "card_url": "http://qa_agent:9009"
+        }
+      ],
+      "results": [
+        {
+          "role": "qa_agent",
+          "pass_rate": 0.0,
+          "metrics": {
+            "micro_accuracy": 0.0,
+            "micro_covered_units": 0,
+            "micro_avg_agreement": 0.0,
+            "micro_strict_consistency_rate": 0.0
+          },
+          "usage": {
+            "calls": 50,
+            "tokens_input": null,
+            "tokens_output": null,
+            "tokens_total": null
+          },
+          "per_dataset": [
+            {
+              "dataset": "adamson_psa_single",
+              "pass_rate": 0.0,
+              "metrics": {
+                "accuracy": 0.0,
+                "coverage_rate": 0.0,
+                "invalid_rate": 1.0,
+                "ambiguous_rate": 0.0,
+                "avg_agreement": 0.0,
+                "strict_consistency_rate": 0.0
+              },
+              "usage": {
+                "calls": 50,
+                "tokens_input": null,
+                "tokens_output": null,
+                "tokens_total": null,
+                "tokens_by_model": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "task_name": "perturbation_significance_analysis",
+      "participant": {
+        "role": "qa_agent",
+        "endpoint": "http://qa_agent:9009/",
+        "name": "openai-4o-mini",
+        "version": "1.0.0",
+        "card_url": "http://qa_agent:9009"
+      },
+      "scores": {
+        "micro_accuracy": 0.0,
+        "micro_covered_units": 0,
+        "micro_avg_agreement": 0.0,
+        "micro_strict_consistency_rate": 0.0
+      },
+      "usage": {
+        "calls": 50,
+        "tokens_input": null,
+        "tokens_output": null,
+        "tokens_total": null
+      },
+      "per_dataset": [
+        {
+          "dataset": "adamson_psa_single",
+          "accuracy": 0.0,
+          "coverage_rate": 0.0,
+          "invalid_rate": 1.0,
+          "ambiguous_rate": 0.0,
+          "units_selected": 5,
+          "usage": {
+            "calls": 50,
+            "tokens_input": null,
+            "tokens_output": null,
+            "tokens_total": null,
+            "tokens_by_model": null
+          },
+          "avg_agreement": 0.0,
+          "strict_consistency_rate": 0.0
+        }
+      ]
+    }
+  ]
+}
