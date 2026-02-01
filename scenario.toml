@@ -1,11 +1,11 @@
 [green_agent]
-agentbeats_id = "YOUR_GREEN_AGENT_ID"
+agentbeats_id = "019bc5a9-d51e-76f1-94c0-3bf54489a9c0"
 env = {}
 
 [[participants]]
 agentbeats_id = "YOUR_PURPLE_AGENT_ID"
 name = "qa_agent"
-env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "YOUR OPENAI MODEL NAME"}
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "MODEL_NAME"}
 
 [config]
 dataset = "adamson_psa_single"
