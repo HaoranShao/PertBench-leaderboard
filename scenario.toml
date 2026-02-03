@@ -8,7 +8,7 @@ name = "qa_agent"
 env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4.1-mini", AGENT_CARD_NAME = "openai-gpt-4.1-mini", AGENT_CARD_DESC = "OpenAI gpt-4.1-mini LLM-only Agent"}
 
 [config]
-dataset = "norman_psa_double"
+dataset = "replogle_k562_psa_single"
 emit_unit_results = true
 write_files = true
 output_dir = "artifacts"
