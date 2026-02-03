@@ -1,0 +1,16 @@
+[green_agent]
+agentbeats_id = "019bc5a9-d51e-76f1-94c0-3bf54489a9c0"
+env = {}
+
+[[participants]]
+agentbeats_id = "019c168d-f5f8-77f3-844e-31456b9149c7"
+name = "qa_agent"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4o-mini", AGENT_CARD_NAME = "openai-gpt-4o-mini", AGENT_CARD_DESC = "OpenAI gpt-4o-mini LLM-only Agent"}
+
+[config]
+dataset = "adamson_psa_single"
+max_units = 1
+random_seed = 42
+emit_unit_results = true
+write_files = true
+output_dir = "artifacts"

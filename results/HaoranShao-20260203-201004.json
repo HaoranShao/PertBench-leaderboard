@@ -1,0 +1,221 @@
+{
+  "participants": {
+    "qa_agent": "019c168d-f5f8-77f3-844e-31456b9149c7"
+  },
+  "results": [
+    {
+      "dataset": "adamson_psa_single",
+      "unit_index": 0,
+      "unit_keys": {
+        "cell_line": "K562",
+        "source": "UFL1",
+        "target": "SP100"
+      },
+      "gold": "Yes",
+      "preds_parsed": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "invalid",
+        "Yes",
+        "Yes",
+        "Yes",
+        "invalid"
+      ],
+      "counts": {
+        "yes": 8,
+        "no": 0,
+        "invalid": 2,
+        "valid": 8
+      },
+      "min_valid": 8,
+      "is_covered": true,
+      "majority_label": "Yes",
+      "majority_correct": true,
+      "is_ambiguous": false,
+      "agreement": 1.0,
+      "strict_consistent": true
+    },
+    {
+      "dataset": "adamson_psa_single",
+      "task_name": "single_perturbation_significance_analysis",
+      "input_mode": "structured",
+      "csv_path": "example/data/adamson_psa_single.csv",
+      "spec_path": "example/config/perturbation_analysis_prompts_single.json",
+      "purple_url": "http://qa_agent:9009/",
+      "units_total": 516,
+      "units_selected": 1,
+      "covered_units": 1,
+      "coverage_rate": 1.0,
+      "accuracy": 1.0,
+      "ambiguous_rate": 0.0,
+      "invalid_rate": 0.2,
+      "avg_agreement": 1.0,
+      "strict_consistency_rate": 1.0,
+      "consistency_units": 1,
+      "purple_usage": {
+        "calls": 10,
+        "tokens_input": null,
+        "tokens_output": null,
+        "tokens_total": null,
+        "tokens_by_model": null
+      },
+      "participant": {
+        "role": "qa_agent",
+        "endpoint": "http://qa_agent:9009/",
+        "name": "openai-gpt-4o-mini",
+        "version": "1.0.0"
+      },
+      "time_used_sec": 116.450782504
+    },
+    {
+      "aggregate": {
+        "datasets": [
+          "adamson_psa_single"
+        ],
+        "num_datasets": 1,
+        "micro_accuracy": 1.0,
+        "micro_covered_units": 1,
+        "micro_avg_agreement": 1.0,
+        "micro_strict_consistency_rate": 1.0,
+        "micro_consistency_units": 1,
+        "purple_usage": {
+          "calls": 10,
+          "tokens_input": null,
+          "tokens_output": null,
+          "tokens_total": null
+        }
+      },
+      "per_dataset": [
+        {
+          "dataset": "adamson_psa_single",
+          "task_name": "single_perturbation_significance_analysis",
+          "input_mode": "structured",
+          "csv_path": "example/data/adamson_psa_single.csv",
+          "spec_path": "example/config/perturbation_analysis_prompts_single.json",
+          "purple_url": "http://qa_agent:9009/",
+          "units_total": 516,
+          "units_selected": 1,
+          "covered_units": 1,
+          "coverage_rate": 1.0,
+          "accuracy": 1.0,
+          "ambiguous_rate": 0.0,
+          "invalid_rate": 0.2,
+          "avg_agreement": 1.0,
+          "strict_consistency_rate": 1.0,
+          "consistency_units": 1,
+          "purple_usage": {
+            "calls": 10,
+            "tokens_input": null,
+            "tokens_output": null,
+            "tokens_total": null,
+            "tokens_by_model": null
+          },
+          "participant": {
+            "role": "qa_agent",
+            "endpoint": "http://qa_agent:9009/",
+            "name": "openai-gpt-4o-mini",
+            "version": "1.0.0"
+          },
+          "time_used_sec": 116.450782504
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "task_name": "perturbation_significance_analysis",
+      "participants": [
+        {
+          "role": "qa_agent",
+          "endpoint": "http://qa_agent:9009/",
+          "name": "openai-gpt-4o-mini",
+          "version": "1.0.0",
+          "card_url": "http://qa_agent:9009"
+        }
+      ],
+      "results": [
+        {
+          "role": "qa_agent",
+          "pass_rate": 1.0,
+          "metrics": {
+            "micro_accuracy": 1.0,
+            "micro_covered_units": 1,
+            "micro_avg_agreement": 1.0,
+            "micro_strict_consistency_rate": 1.0
+          },
+          "usage": {
+            "calls": 10,
+            "tokens_input": null,
+            "tokens_output": null,
+            "tokens_total": null
+          },
+          "per_dataset": [
+            {
+              "dataset": "adamson_psa_single",
+              "pass_rate": 1.0,
+              "metrics": {
+                "accuracy": 1.0,
+                "coverage_rate": 1.0,
+                "invalid_rate": 0.2,
+                "ambiguous_rate": 0.0,
+                "avg_agreement": 1.0,
+                "strict_consistency_rate": 1.0
+              },
+              "usage": {
+                "calls": 10,
+                "tokens_input": null,
+                "tokens_output": null,
+                "tokens_total": null,
+                "tokens_by_model": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "task_name": "perturbation_significance_analysis",
+      "participant": {
+        "role": "qa_agent",
+        "endpoint": "http://qa_agent:9009/",
+        "name": "openai-gpt-4o-mini",
+        "version": "1.0.0",
+        "card_url": "http://qa_agent:9009"
+      },
+      "scores": {
+        "micro_accuracy": 1.0,
+        "micro_covered_units": 1,
+        "micro_avg_agreement": 1.0,
+        "micro_strict_consistency_rate": 1.0
+      },
+      "usage": {
+        "calls": 10,
+        "tokens_input": null,
+        "tokens_output": null,
+        "tokens_total": null
+      },
+      "per_dataset": [
+        {
+          "dataset": "adamson_psa_single",
+          "accuracy": 1.0,
+          "coverage_rate": 1.0,
+          "invalid_rate": 0.2,
+          "ambiguous_rate": 0.0,
+          "units_selected": 1,
+          "usage": {
+            "calls": 10,
+            "tokens_input": null,
+            "tokens_output": null,
+            "tokens_total": null,
+            "tokens_by_model": null
+          },
+          "avg_agreement": 1.0,
+          "strict_consistency_rate": 1.0
+        }
+      ]
+    }
+  ]
+}
